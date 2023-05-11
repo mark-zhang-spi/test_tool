@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.dagger:dagger-lint-aar:2.37@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../Wired Side Mount/Android/Project/NL_Controller-V4.3.0-USB/caches/transforms-3/085fd154f1f6f8969abc5597f2087a58/transformed/jetified-dagger-lint-aar-2.37/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../Wired Side Mount/Android/Project/NL_Controller-V4.3.0-USB/caches/transforms-3/085fd154f1f6f8969abc5597f2087a58/transformed/jetified-dagger-lint-aar-2.37/res" />
+      <root url="file://$PROJECT_DIR$/../../../../Wired Side Mount/Android/Project/NL_Controller-V4.3.0-USB/caches/transforms-3/085fd154f1f6f8969abc5597f2087a58/transformed/jetified-dagger-lint-aar-2.37/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/085fd154f1f6f8969abc5597f2087a58/transformed/jetified-dagger-lint-aar-2.37/res" />
+      <root url="jar://$PROJECT_DIR$/../../Current/Wired Side Mount/Android/Project/NL_Controller-V4.3.0-USB/caches/transforms-3/085fd154f1f6f8969abc5597f2087a58/transformed/jetified-dagger-lint-aar-2.37/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../Current/Wired Side Mount/Android/Project/NL_Controller-V4.3.0-USB/caches/transforms-3/085fd154f1f6f8969abc5597f2087a58/transformed/jetified-dagger-lint-aar-2.37/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../Current/Wired Side Mount/Android/Project/NL_Controller-V4.3.0-USB/caches/transforms-3/085fd154f1f6f8969abc5597f2087a58/transformed/jetified-dagger-lint-aar-2.37/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

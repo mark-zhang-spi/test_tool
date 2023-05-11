@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.core:core-ktx:1.5.0@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../Wired Side Mount/Android/Project/NL_Controller-V4.3.0-USB/caches/transforms-3/132113f5f40cdad0516c3cbab6b24c99/transformed/jetified-core-ktx-1.5.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../Wired Side Mount/Android/Project/NL_Controller-V4.3.0-USB/caches/transforms-3/132113f5f40cdad0516c3cbab6b24c99/transformed/jetified-core-ktx-1.5.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../../Wired Side Mount/Android/Project/NL_Controller-V4.3.0-USB/caches/transforms-3/132113f5f40cdad0516c3cbab6b24c99/transformed/jetified-core-ktx-1.5.0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../Current/Wired Side Mount/Android/Project/NL_Controller-V4.3.0-USB/caches/transforms-3/132113f5f40cdad0516c3cbab6b24c99/transformed/jetified-core-ktx-1.5.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../Current/Wired Side Mount/Android/Project/NL_Controller-V4.3.0-USB/caches/transforms-3/132113f5f40cdad0516c3cbab6b24c99/transformed/jetified-core-ktx-1.5.0/res" />
+      <root url="file://$PROJECT_DIR$/../../Current/Wired Side Mount/Android/Project/NL_Controller-V4.3.0-USB/caches/transforms-3/132113f5f40cdad0516c3cbab6b24c99/transformed/jetified-core-ktx-1.5.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../Wired Side Mount/Android/Project/NL_Controller-V4.3.0-USB/caches/modules-2/files-2.1/androidx.core/core-ktx/1.5.0/37796e61aa8cca0d3d43d8fd4cfec054f9ef5d31/core-ktx-1.5.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Current/Wired Side Mount/Android/Project/NL_Controller-V4.3.0-USB/caches/modules-2/files-2.1/androidx.core/core-ktx/1.5.0/37796e61aa8cca0d3d43d8fd4cfec054f9ef5d31/core-ktx-1.5.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

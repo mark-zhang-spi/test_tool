@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.activity:activity-ktx:1.2.2@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../Wired Side Mount/Android/Project/NL_Controller-V4.3.0-USB/caches/transforms-3/1798742c9587dc334db48da935ea088d/transformed/jetified-activity-ktx-1.2.2/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../Wired Side Mount/Android/Project/NL_Controller-V4.3.0-USB/caches/transforms-3/1798742c9587dc334db48da935ea088d/transformed/jetified-activity-ktx-1.2.2/res" />
+      <root url="file://$PROJECT_DIR$/../../../../Wired Side Mount/Android/Project/NL_Controller-V4.3.0-USB/caches/transforms-3/1798742c9587dc334db48da935ea088d/transformed/jetified-activity-ktx-1.2.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1798742c9587dc334db48da935ea088d/transformed/jetified-activity-ktx-1.2.2/res" />
+      <root url="file://$PROJECT_DIR$/../../Current/Wired Side Mount/Android/Project/NL_Controller-V4.3.0-USB/caches/transforms-3/1798742c9587dc334db48da935ea088d/transformed/jetified-activity-ktx-1.2.2/res" />
+      <root url="jar://$PROJECT_DIR$/../../Current/Wired Side Mount/Android/Project/NL_Controller-V4.3.0-USB/caches/transforms-3/1798742c9587dc334db48da935ea088d/transformed/jetified-activity-ktx-1.2.2/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../Current/Wired Side Mount/Android/Project/NL_Controller-V4.3.0-USB/caches/transforms-3/1798742c9587dc334db48da935ea088d/transformed/jetified-activity-ktx-1.2.2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../Wired Side Mount/Android/Project/NL_Controller-V4.3.0-USB/caches/modules-2/files-2.1/androidx.activity/activity-ktx/1.2.2/827664f9421e56e79f9eed7223ba4a5d67d941c2/activity-ktx-1.2.2-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Current/Wired Side Mount/Android/Project/NL_Controller-V4.3.0-USB/caches/modules-2/files-2.1/androidx.activity/activity-ktx/1.2.2/827664f9421e56e79f9eed7223ba4a5d67d941c2/activity-ktx-1.2.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

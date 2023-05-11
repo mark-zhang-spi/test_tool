@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.lifecycle:lifecycle-runtime-ktx:2.3.1@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../Wired Side Mount/Android/Project/NL_Controller-V4.3.0-USB/caches/transforms-3/a6a2ba4a582ed3348e5b33a7b1ce787a/transformed/jetified-lifecycle-runtime-ktx-2.3.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../Wired Side Mount/Android/Project/NL_Controller-V4.3.0-USB/caches/transforms-3/a6a2ba4a582ed3348e5b33a7b1ce787a/transformed/jetified-lifecycle-runtime-ktx-2.3.1/res" />
+      <root url="file://$PROJECT_DIR$/../../../../Wired Side Mount/Android/Project/NL_Controller-V4.3.0-USB/caches/transforms-3/a6a2ba4a582ed3348e5b33a7b1ce787a/transformed/jetified-lifecycle-runtime-ktx-2.3.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a6a2ba4a582ed3348e5b33a7b1ce787a/transformed/jetified-lifecycle-runtime-ktx-2.3.1/res" />
+      <root url="file://$PROJECT_DIR$/../../Current/Wired Side Mount/Android/Project/NL_Controller-V4.3.0-USB/caches/transforms-3/a6a2ba4a582ed3348e5b33a7b1ce787a/transformed/jetified-lifecycle-runtime-ktx-2.3.1/res" />
+      <root url="jar://$PROJECT_DIR$/../../Current/Wired Side Mount/Android/Project/NL_Controller-V4.3.0-USB/caches/transforms-3/a6a2ba4a582ed3348e5b33a7b1ce787a/transformed/jetified-lifecycle-runtime-ktx-2.3.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../Current/Wired Side Mount/Android/Project/NL_Controller-V4.3.0-USB/caches/transforms-3/a6a2ba4a582ed3348e5b33a7b1ce787a/transformed/jetified-lifecycle-runtime-ktx-2.3.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../Wired Side Mount/Android/Project/NL_Controller-V4.3.0-USB/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-runtime-ktx/2.3.1/c1479ee40da8e478749acfa4cc0be2f92c312ad8/lifecycle-runtime-ktx-2.3.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Current/Wired Side Mount/Android/Project/NL_Controller-V4.3.0-USB/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-runtime-ktx/2.3.1/c1479ee40da8e478749acfa4cc0be2f92c312ad8/lifecycle-runtime-ktx-2.3.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

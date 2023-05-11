@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="Gradle: com.airbnb.android:paris:1.0.0@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../Wired Side Mount/Android/Project/NL_Controller-V4.3.0-USB/caches/transforms-3/22abb2c6354d0b257be6e4bd79146d22/transformed/jetified-paris-1.0.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../Wired Side Mount/Android/Project/NL_Controller-V4.3.0-USB/caches/transforms-3/22abb2c6354d0b257be6e4bd79146d22/transformed/jetified-paris-1.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../../Wired Side Mount/Android/Project/NL_Controller-V4.3.0-USB/caches/transforms-3/22abb2c6354d0b257be6e4bd79146d22/transformed/jetified-paris-1.0.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../Current/Wired Side Mount/Android/Project/NL_Controller-V4.3.0-USB/caches/transforms-3/22abb2c6354d0b257be6e4bd79146d22/transformed/jetified-paris-1.0.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../Current/Wired Side Mount/Android/Project/NL_Controller-V4.3.0-USB/caches/transforms-3/22abb2c6354d0b257be6e4bd79146d22/transformed/jetified-paris-1.0.0/res" />
+      <root url="jar://$PROJECT_DIR$/../../Current/Wired Side Mount/Android/Project/NL_Controller-V4.3.0-USB/caches/transforms-3/22abb2c6354d0b257be6e4bd79146d22/transformed/jetified-paris-1.0.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../../../Wired Side Mount/Android/Project/NL_Controller-V4.3.0-USB/caches/modules-2/files-2.1/com.airbnb.android/paris/1.0.0/e1a4080b0a0008c93d0619a21eb1e9fa32cda8d2/paris-1.0.0-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Current/Wired Side Mount/Android/Project/NL_Controller-V4.3.0-USB/caches/modules-2/files-2.1/com.airbnb.android/paris/1.0.0/e1a4080b0a0008c93d0619a21eb1e9fa32cda8d2/paris-1.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../Wired Side Mount/Android/Project/NL_Controller-V4.3.0-USB/caches/modules-2/files-2.1/com.airbnb.android/paris/1.0.0/39131763611be6e41494eb88c2dbbefb67d029/paris-1.0.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Current/Wired Side Mount/Android/Project/NL_Controller-V4.3.0-USB/caches/modules-2/files-2.1/com.airbnb.android/paris/1.0.0/39131763611be6e41494eb88c2dbbefb67d029/paris-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

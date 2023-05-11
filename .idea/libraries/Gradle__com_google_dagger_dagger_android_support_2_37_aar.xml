@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.dagger:dagger-android-support:2.37@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../Wired Side Mount/Android/Project/NL_Controller-V4.3.0-USB/caches/transforms-3/f576fc10a85cc37d593e1042cea905e8/transformed/jetified-dagger-android-support-2.37/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../Wired Side Mount/Android/Project/NL_Controller-V4.3.0-USB/caches/transforms-3/f576fc10a85cc37d593e1042cea905e8/transformed/jetified-dagger-android-support-2.37/res" />
+      <root url="file://$PROJECT_DIR$/../../../../Wired Side Mount/Android/Project/NL_Controller-V4.3.0-USB/caches/transforms-3/f576fc10a85cc37d593e1042cea905e8/transformed/jetified-dagger-android-support-2.37/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f576fc10a85cc37d593e1042cea905e8/transformed/jetified-dagger-android-support-2.37/res" />
+      <root url="file://$PROJECT_DIR$/../../Current/Wired Side Mount/Android/Project/NL_Controller-V4.3.0-USB/caches/transforms-3/f576fc10a85cc37d593e1042cea905e8/transformed/jetified-dagger-android-support-2.37/res" />
+      <root url="file://$PROJECT_DIR$/../../Current/Wired Side Mount/Android/Project/NL_Controller-V4.3.0-USB/caches/transforms-3/f576fc10a85cc37d593e1042cea905e8/transformed/jetified-dagger-android-support-2.37/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../Current/Wired Side Mount/Android/Project/NL_Controller-V4.3.0-USB/caches/transforms-3/f576fc10a85cc37d593e1042cea905e8/transformed/jetified-dagger-android-support-2.37/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../../../Wired Side Mount/Android/Project/NL_Controller-V4.3.0-USB/caches/modules-2/files-2.1/com.google.dagger/dagger-android-support/2.37/a87fa47f3562c9d899a77ad4039a9562a29a6c92/dagger-android-support-2.37-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Current/Wired Side Mount/Android/Project/NL_Controller-V4.3.0-USB/caches/modules-2/files-2.1/com.google.dagger/dagger-android-support/2.37/a87fa47f3562c9d899a77ad4039a9562a29a6c92/dagger-android-support-2.37-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../Wired Side Mount/Android/Project/NL_Controller-V4.3.0-USB/caches/modules-2/files-2.1/com.google.dagger/dagger-android-support/2.37/d5530d69bb026cc8504abff4125925bff4541fc0/dagger-android-support-2.37-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Current/Wired Side Mount/Android/Project/NL_Controller-V4.3.0-USB/caches/modules-2/files-2.1/com.google.dagger/dagger-android-support/2.37/d5530d69bb026cc8504abff4125925bff4541fc0/dagger-android-support-2.37-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

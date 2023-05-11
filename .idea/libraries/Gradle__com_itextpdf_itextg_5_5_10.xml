@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.itextpdf:itextg:5.5.10">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../Wired Side Mount/Android/Project/NL_Controller-V4.3.0-USB/caches/modules-2/files-2.1/com.itextpdf/itextg/5.5.10/247811bfc4d8f4e99c909236eadf4dfc6dfa1615/itextg-5.5.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Current/Wired Side Mount/Android/Project/NL_Controller-V4.3.0-USB/caches/modules-2/files-2.1/com.itextpdf/itextg/5.5.10/247811bfc4d8f4e99c909236eadf4dfc6dfa1615/itextg-5.5.10.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../../../Wired Side Mount/Android/Project/NL_Controller-V4.3.0-USB/caches/modules-2/files-2.1/com.itextpdf/itextg/5.5.10/72df5507bd665cf6536922b97989ffddde69ea4/itextg-5.5.10-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Current/Wired Side Mount/Android/Project/NL_Controller-V4.3.0-USB/caches/modules-2/files-2.1/com.itextpdf/itextg/5.5.10/72df5507bd665cf6536922b97989ffddde69ea4/itextg-5.5.10-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../Wired Side Mount/Android/Project/NL_Controller-V4.3.0-USB/caches/modules-2/files-2.1/com.itextpdf/itextg/5.5.10/88b091a565694acaea613be992823387958c8c33/itextg-5.5.10-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Current/Wired Side Mount/Android/Project/NL_Controller-V4.3.0-USB/caches/modules-2/files-2.1/com.itextpdf/itextg/5.5.10/88b091a565694acaea613be992823387958c8c33/itextg-5.5.10-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

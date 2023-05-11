@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size_large" >24sp</dimen>
+    <dimen name="text_size_normal" >18sp</dimen>
+    <dimen name="text_size_medium" >16sp</dimen>
+    <dimen name="text_size_small" >14sp</dimen>
+    <dimen name="text_size_very_small" >12sp</dimen>
+    <dimen name="large_btn_width">500dp</dimen>
+    <dimen name="large_btn_height">75dp</dimen>
+    <dimen name="btn_padding">15dp</dimen>
+    <dimen name="left_width">184dp</dimen>
+</resources>

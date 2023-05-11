@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Pivot Test Util</string>
+
+    <string name="connect_device">Connect Device</string>
+    <string name="device_connected">Device Connected</string>
+
+    <string name="initialize_lock">Initialize Lock</string>
+    <string name="self_test_ctrlb">Test Control Board</string>
+    <string name="self_test_lock">Test Lock</string>
+    <string name="save_test_log">Save Test Log</string>
+
+    <string name="hid_chip">HID Chip</string>
+    <string name="bmd_chip">BMD Chip</string>
+    <string name="legic_chip">LEGIC Chip</string>
+    <string name="touch_pad">Touch Pad</string>
+
+    <string name="door_sensor">Door Sensor</string>
+    <string name="motor_sensor">Motor Sensor</string>
+    <string name="latch_sensor">Latch Sensor</string>
+
+    <string name="rfid">RFID</string>
+    <string name="mobile_access">Mobile Access</string>
+    <string name="com_port">COM Ports</string>
+
+    <string name="eeprom">EEPROM</string>
+    <string name="sram">SRAM</string>
+
+    <string name="test_done">Test Complete</string>
+
+</resources>

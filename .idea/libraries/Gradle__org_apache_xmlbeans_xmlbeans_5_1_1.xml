@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.xmlbeans:xmlbeans:5.1.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../Wired Side Mount/Android/Project/NL_Controller-V4.3.0-USB/caches/modules-2/files-2.1/org.apache.xmlbeans/xmlbeans/5.1.1/48a369df0eccb509d46203104e4df9cb00f0f68b/xmlbeans-5.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Current/Wired Side Mount/Android/Project/NL_Controller-V4.3.0-USB/caches/modules-2/files-2.1/org.apache.xmlbeans/xmlbeans/5.1.1/48a369df0eccb509d46203104e4df9cb00f0f68b/xmlbeans-5.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../../../Wired Side Mount/Android/Project/NL_Controller-V4.3.0-USB/caches/modules-2/files-2.1/org.apache.xmlbeans/xmlbeans/5.1.1/a25df30a690c8792ce052299400debb780751cf0/xmlbeans-5.1.1-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Current/Wired Side Mount/Android/Project/NL_Controller-V4.3.0-USB/caches/modules-2/files-2.1/org.apache.xmlbeans/xmlbeans/5.1.1/a25df30a690c8792ce052299400debb780751cf0/xmlbeans-5.1.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../Wired Side Mount/Android/Project/NL_Controller-V4.3.0-USB/caches/modules-2/files-2.1/org.apache.xmlbeans/xmlbeans/5.1.1/adc9943b0c9d6d8a23a6d374c379106a042d882c/xmlbeans-5.1.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Current/Wired Side Mount/Android/Project/NL_Controller-V4.3.0-USB/caches/modules-2/files-2.1/org.apache.xmlbeans/xmlbeans/5.1.1/adc9943b0c9d6d8a23a6d374c379106a042d882c/xmlbeans-5.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

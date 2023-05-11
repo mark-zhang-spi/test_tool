@@ -1,0 +1,980 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_tint"
+    tools:context=".main.MainActivity">
+
+    <TextView
+        android:id="@+id/tvSpaceHolder"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/tvSpaceHolder0"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSpaceHolder" />
+
+
+    <LinearLayout
+        android:id="@+id/llCtrbConnStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSpaceHolder0">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Control board connection state:"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/tvConnState"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:paddingLeft="8dp"
+            android:textSize="10dp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvSpaceHolder1"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/llCtrbConnStatus" />
+
+    <TextView
+        android:id="@+id/uuidText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text=""
+        android:textColor="@color/grey"
+        android:textSize="@dimen/text_size_normal"
+        app:layout_constraintStart_toStartOf="@+id/llTestReportView"
+        app:layout_constraintEnd_toEndOf="@+id/llTestReportView"
+        app:layout_constraintTop_toBottomOf="@+id/tvSpaceHolder1"
+        tools:text="UID: AA BB CC DD EE FF GG HH" />
+
+
+    <LinearLayout
+        android:id="@+id/llTestReportView"
+        android:layout_width="440dp"
+        android:layout_height="600dp"
+        android:background="@drawable/grey_tint_background"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        app:layout_constraintStart_toEndOf="@+id/llActionButtons"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/uuidText"
+        android:orientation="vertical"
+        android:weightSum="14">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight=".6"
+            android:gravity="center"
+            android:text="Test Report"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/blue"
+            android:text=""/>
+
+        <LinearLayout
+            android:id="@+id/llDeviceInfo"
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="0.5"
+            android:weightSum="10"
+            android:orientation="horizontal"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/tvDeviceName"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:textSize="@dimen/text_size_medium"
+                android:textColor="@color/black"
+                android:gravity="left|center"/>
+
+            <TextView
+                android:id="@+id/tvDeviceVersion"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:textSize="@dimen/text_size_medium"
+                android:textColor="@color/black"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/tvDeviceUID"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:textSize="@dimen/text_size_medium"
+                android:textColor="@color/black"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llPrimaryChipState"
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="2.1"
+            android:orientation="vertical"
+            android:background="@color/white"
+            android:weightSum="4.2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight=".2"
+                android:background="@color/light_grey"
+                android:text=""/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:text="Primary chip state:"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="10"
+                android:paddingLeft="@dimen/text_size_medium">
+
+                <TextView
+                    android:id="@+id/tvHidMark"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/text_size_medium"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/tvHIDChip"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/tvHIDState"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/black"
+                    android:layout_weight="2" />
+
+                <TextView
+                    android:id="@+id/tvHIDVersion"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/black"
+                    android:layout_weight="4.5" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/light_grey"
+                android:text=""/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="10"
+                android:paddingLeft="@dimen/text_size_medium">
+
+                <TextView
+                    android:id="@+id/tvBMD_LEGIC_Mark"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/text_size_medium"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:id="@+id/tvBMD_LEGIC_Chip"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/tvBMD_LEGIC_State"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/black"
+                    android:layout_weight="2" />
+
+                <TextView
+                    android:id="@+id/tvBMD_LEGIC_Version"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/black"
+                    android:layout_weight="4.5" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/light_grey"
+                android:text=""/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="10"
+                android:paddingLeft="@dimen/text_size_medium">
+
+                <TextView
+                    android:id="@+id/tvTouchPadMark"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/text_size_medium"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/tvTouchPad"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/tvTouchPadState"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/black"
+                    android:layout_weight="2" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llLED"
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="2.1"
+            android:orientation="vertical"
+            android:weightSum="4.2"
+            android:background="@color/white">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="0.2"
+                android:background="@color/light_grey"/>
+
+            <LinearLayout
+                android:id="@+id/llRedLed"
+                android:visibility="invisible"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="2"
+                android:orientation="vertical"
+                android:weightSum="2.5">
+
+                <TextView
+                    android:id="@+id/tvRedLed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0px"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/tvRedLedTick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0px"
+                    android:layout_weight="1"
+                    android:textColor="@color/red"
+                    android:textSize="@dimen/text_size_medium" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0px"
+                    android:layout_weight=".5" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/light_grey"
+                    android:text=""/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llGreenLed"
+                android:visibility="invisible"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="2"
+                android:orientation="vertical"
+                android:weightSum="2.5">
+
+                <TextView
+                    android:id="@+id/tvGreenLed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0px"
+                    android:layout_weight="1"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/tvGreenLedTick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0px"
+                    android:layout_weight="1"
+                    android:textColor="@color/green"
+                    android:textSize="@dimen/text_size_medium" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0px"
+                    android:layout_weight=".5" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llTestSensors"
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="2.6"
+            android:orientation="vertical"
+            android:background="@color/white"
+            android:weightSum="5.2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight=".2"
+                android:background="@color/light_grey"
+                android:text=""/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvTestSensors"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0px"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/tvTestSensorsTick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0px"
+                    android:layout_weight="1"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/text_size_medium" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/light_grey"
+                    android:text=""/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llSesnorState"
+                android:visibility="invisible"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="3"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/llDoorSensorState"
+                    android:layout_width="match_parent"
+                    android:layout_height="0px"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:paddingLeft="@dimen/text_size_medium">
+
+                    <TextView
+                        android:id="@+id/tvDoorSensorMark"
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:textSize="@dimen/text_size_medium"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:id="@+id/tvDoorSensor"
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/tvDoorSensorState"
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/black"
+                        android:layout_weight="2" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/light_grey"
+                    android:text=""/>
+
+                <LinearLayout
+                    android:id="@+id/llMotorSensorState"
+                    android:layout_width="match_parent"
+                    android:layout_height="0px"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:paddingLeft="@dimen/text_size_medium">
+
+                    <TextView
+                        android:id="@+id/tvMotorSensorMark"
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:textSize="@dimen/text_size_medium"
+                        android:layout_weight="1"/>
+
+                    <TextView
+                        android:id="@+id/tvMotorSensor"
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/tvMotorSensorState"
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/black"
+                        android:layout_weight="2" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/light_grey"
+                    android:text=""/>
+
+                <LinearLayout
+                    android:id="@+id/llLatchSensorState"
+                    android:layout_width="match_parent"
+                    android:layout_height="0px"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:paddingLeft="@dimen/text_size_medium">
+
+                    <TextView
+                        android:id="@+id/tvLatchSensorMark"
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:textSize="@dimen/text_size_medium"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:id="@+id/tvLatchSensor"
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/tvLatchSensorState"
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/black"
+                        android:layout_weight="2" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llTestRFID"
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1.6"
+            android:orientation="vertical"
+            android:background="@color/white"
+            android:weightSum="3.2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight=".2"
+                android:background="@color/light_grey"
+                android:text=""/>
+
+            <TextView
+                android:id="@+id/tvTestRFID"
+                android:layout_width="wrap_content"
+                android:layout_height="0px"
+                android:layout_weight="1"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/tvTestRFIDTick"
+                android:layout_width="wrap_content"
+                android:layout_height="0px"
+                android:layout_weight="1"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/text_size_medium" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/light_grey"
+                android:text=""/>
+
+            <LinearLayout
+                android:id="@+id/llRFIDState"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="10"
+                android:paddingLeft="@dimen/text_size_medium">
+
+                <TextView
+                    android:id="@+id/tvRFIDMark"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/text_size_medium"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/tvRFID"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/tvRFIDState"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/black"
+                    android:layout_weight="2" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llTestMobileID"
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1.6"
+            android:orientation="vertical"
+            android:background="@color/white"
+            android:weightSum="3.2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight=".2"
+                android:background="@color/light_grey"
+                android:text=""/>
+
+            <TextView
+                android:id="@+id/tvTestMobileID"
+                android:layout_width="wrap_content"
+                android:layout_height="0px"
+                android:layout_weight="1"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/tvTestMobileIDTick"
+                android:layout_width="wrap_content"
+                android:layout_height="0px"
+                android:layout_weight="1"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/text_size_medium" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/light_grey"
+                android:text=""/>
+
+            <LinearLayout
+                android:id="@+id/llMobileIDState"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="10"
+                android:paddingLeft="@dimen/text_size_medium">
+
+                <TextView
+                    android:id="@+id/tvMobileIDMark"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/text_size_medium"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/tvMobileID"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/tvMobileIDState"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/black"
+                    android:layout_weight="2" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llTestCtrlbCOM"
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1.6"
+            android:orientation="vertical"
+            android:background="@color/white"
+            android:weightSum="3.2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight=".2"
+                android:background="@color/light_grey"
+                android:text=""/>
+
+            <TextView
+                android:id="@+id/tvTestCtrlbCOM"
+                android:layout_width="wrap_content"
+                android:layout_height="0px"
+                android:layout_weight="1"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/tvTestCtrlbCOMTick"
+                android:layout_width="wrap_content"
+                android:layout_height="0px"
+                android:layout_weight="1"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/text_size_medium" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/light_grey"
+                android:text=""/>
+
+            <LinearLayout
+                android:id="@+id/llCtrlbCOMState"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="10"
+                android:paddingLeft="@dimen/text_size_medium">
+
+                <TextView
+                    android:id="@+id/tvCtrlbCOMMark"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/text_size_medium"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/tvCtrlbCOM"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/tvCtrlbCOMState"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/black"
+                    android:layout_weight="2" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llTestEEPROM"
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1.6"
+            android:orientation="vertical"
+            android:background="@color/white"
+            android:weightSum="3.2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight=".2"
+                android:background="@color/light_grey"
+                android:text=""/>
+
+            <TextView
+                android:id="@+id/tvTestEEPROM"
+                android:layout_width="wrap_content"
+                android:layout_height="0px"
+                android:layout_weight="1"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/tvTestEEPROMTick"
+                android:layout_width="wrap_content"
+                android:layout_height="0px"
+                android:layout_weight="1"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/text_size_medium" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/light_grey"
+                android:text=""/>
+
+            <LinearLayout
+                android:id="@+id/llEEPROMState"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="10"
+                android:paddingLeft="@dimen/text_size_medium">
+
+                <TextView
+                    android:id="@+id/tvEEPROMMark"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/text_size_medium"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/tvEEPROM"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/tvEEPROMState"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/black"
+                    android:layout_weight="2" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llTestSRAM"
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1.6"
+            android:orientation="vertical"
+            android:background="@color/white"
+            android:weightSum="3.2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight=".2"
+                android:background="@color/light_grey"
+                android:text=""/>
+
+            <TextView
+                android:id="@+id/tvTestSRAM"
+                android:layout_width="wrap_content"
+                android:layout_height="0px"
+                android:layout_weight="1"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/tvTestSRAMTick"
+                android:layout_width="wrap_content"
+                android:layout_height="0px"
+                android:layout_weight="1"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/text_size_medium" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/light_grey"
+                android:text=""/>
+
+            <LinearLayout
+                android:id="@+id/llSRAMState"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="10"
+                android:paddingLeft="@dimen/text_size_medium">
+
+                <TextView
+                    android:id="@+id/tvSRAMMark"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/text_size_medium"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/tvSRAM"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/tvSRAMState"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/black"
+                    android:layout_weight="2" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llTestDone"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1.2"
+            android:orientation="vertical"
+            android:weightSum="1.2"
+            android:background="@color/white">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight=".2"
+                android:background="@color/light_grey"
+                android:text=""/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="1"
+                android:weightSum="10"
+                android:paddingLeft="@dimen/text_size_medium"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvTestDoneMark"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/text_size_large"
+                    android:gravity="center_vertical"/>
+
+                <TextView
+                    android:id="@+id/tvTestDone"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_normal"
+                    android:gravity="center_vertical"/>
+
+                <TextView
+                    android:id="@+id/tvTestDoneState"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/black"
+                    android:layout_weight="2"
+                    android:textSize="@dimen/text_size_normal"
+                    android:gravity="center_vertical"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/llActionButtons"
+        android:layout_width="300dp"
+        android:layout_height="600dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/llTestReportView"
+        app:layout_constraintTop_toBottomOf="@+id/uuidText">
+
+        <Button
+            android:id="@+id/btnSelfTestCtrlb"
+            style="@style/small_button"
+            android:text="@string/self_test_ctrlb" />
+
+        <Button
+            android:id="@+id/btnSelfTestLock"
+            style="@style/small_button"
+            android:text="@string/self_test_lock" />
+
+        <Button
+            android:id="@+id/btnSaveTestLog"
+            style="@style/small_button"
+            android:text="@string/save_test_log" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llSpaceHolder2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
